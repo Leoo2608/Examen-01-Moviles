@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Agregar Productos"
+        android:textSize="30sp"
+        android:layout_marginBottom="40dp"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:paddingLeft="4dp"
+        android:layout_marginLeft="50dp"
+        android:text="Nombre del producto:" />
+
+    <EditText
+        android:id="@+id/add_nom_prod"
+        android:layout_gravity="start"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="13dp"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:paddingLeft="4dp"
+        android:layout_marginLeft="50dp"
+        android:text="Proveedor:" />
+
+    <EditText
+        android:id="@+id/add_prov_prod"
+        android:layout_gravity="start"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:paddingTop="15dp"
+        android:inputType="text"
+        android:layout_marginBottom="13dp"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:paddingLeft="4dp"
+        android:layout_marginLeft="50dp"
+        android:text="Categoría:" />
+
+    <EditText
+        android:id="@+id/add_categ_prod"
+        android:layout_gravity="start"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:paddingTop="15dp"
+        android:inputType="text"
+        android:layout_marginBottom="13dp"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:paddingLeft="4dp"
+        android:layout_marginLeft="50dp"
+        android:text="Precio (Soles):" />
+
+    <EditText
+        android:id="@+id/add_precio_prod"
+        android:layout_gravity="start"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:paddingTop="15dp"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="13dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_add_prod"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="40dp"
+            android:text="Agregar"
+            android:backgroundTint="@color/blue_app"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/btn_return1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:text="Volver"
+            android:backgroundTint="@color/blue_app"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</LinearLayout>
